@@ -28,6 +28,9 @@ Choose spot lifetime (60–600 seconds)
 
 Spots appear on your Flex panadapter (Maestro/SmartSDR) with color.
 
+## Example on Maestro Panadapter
+<image-card alt="FT8 spots with red/green coloring" src="images/wsjtx-to-flex.jpeg" ></image-card>
+
 ## License
 
 MIT License — feel free to use, modify, share.
