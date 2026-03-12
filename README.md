@@ -15,6 +15,12 @@ Python script that listens to WSJT-X multicast UDP decodes and injects them as c
 - WSJT-X (with UDP multicast enabled: 224.0.0.1 port 2237)
 - FlexRadio 6000/8000 series with SmartSDR API enabled (port 4992)
 
+## Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/ten9876/wsjtx-flex-spots.git
+   cd wsjtx-flex-spots
+   
 ## Usage
 1. Run the script:
    ```bash
