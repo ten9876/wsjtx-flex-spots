@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 WSJT-X to Flex Radio Spots Bridge
-Version: 1.3  (2025-03-11 – duplicate check ignores frequency)
+Version: 1.3  (2026-03-11 – duplicate check ignores frequency)
   - Time-based deduplication: refresh active stations every SPOT_LIFETIME seconds
   - Duplicate check now only on callsign (ignores frequency)
   - Red (#FF0000) for spots calling YOU → "CALLING YOU:"
