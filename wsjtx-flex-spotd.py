@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 WSJT-X to Flex Radio Spots Bridge - Daemon-friendly version
-Version: 1.4-daemon  (2025-03-11)
+Version: 1.4-daemon  (2026-03-11)
   - Removed interactive prompts → moved to top-level config variables
   - Replaced print() with proper logging (stdout/stderr friendly)
   - Intended for daemon/systemd/supervisord/nohup usage
@@ -20,7 +20,7 @@ import sys
 # CONFIGURATION - EDIT THESE VARIABLES
 # ────────────────────────────────────────────────
 
-MY_CALLSIGN     = "KK7GWY"              # Your callsign (red spots when called)
+MY_CALLSIGN     = "N0CALL"              # Your callsign (red spots when called)
 FILTER_MODE     = "cq"                  # Options: "cq", "pota", "none"
 SPOT_LIFETIME   = 120                   # seconds – also duplicate/refresh window
 MIN_SNR         = -35                   # Minimum SNR for non-personal spots
