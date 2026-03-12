@@ -1,6 +1,6 @@
 # WSJT-X to Flex Spots Bridge
 
-**Version:** 1.3 (2025-03-11)
+**Version:** 1.3 (2026-03-11)
 
 Python script that listens to WSJT-X multicast UDP decodes and injects them as colored spots on a FlexRadio panadapter (SmartSDR API).
 
